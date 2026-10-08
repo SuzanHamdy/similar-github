@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="DevShow - Discover and showcase amazing developer projects."
+    >
+
+    <title>Nexus</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+
+    <!-- ================================
+         NAVBAR
+    ================================= -->
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="index.html" class="logo">
+                Nexus <span>show</span>
+            </a>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html" class="active">
+                      <i class="fa-solid fa-house-chimney"></i>  Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="projects.html">
+                    <i class="fa-solid fa-rocket"></i>    Explore
+                    </a>
+                </li>
+
+                <li>
+                    <a href="developers.html">
+                     <i class="fa-brands fa-stack-overflow"></i>   Developers
+                    </a>
+                </li>
+
+                <li>
+                    <a href="add-project.html">
+                    <i class="fa-solid fa-clone"></i>    Add Project
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="nav-actions">
+
+                <button
+                    id="themeBtn"
+                    class="theme-btn"
+                    aria-label="Toggle theme"
+                >
+                   <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <a href="#" class="login-btn">
+                    Login
+                </a>
+
+            </div>
+
+            <button
+                id="menuBtn"
+                class="menu-btn"
+                aria-label="Open menu"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================================
+         HERO
+    ================================= -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="container hero-content scale">
+
+                <div class="hero-text">
+
+                    <span class="hero-badge">
+                       <i class="fa-regular fa-paper-plane"></i> Built for Developers
+                    </span>
+
+                    <h1>
+                        Build.
+                        <span>Deploy.</span>
+                        Share.
+                    </h1>
+
+                    <p>
+                        Discover amazing projects, showcase your work,
+                        and connect with developers from around the world.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="projects.html"
+                            class="btn primary-btn"
+                        >
+                            Explore Projects
+                        </a>
+
+                        <a
+                            href="add-project.html"
+                            class="btn secondary-btn"
+                        >
+                            + Add Your Project
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-image">
+
+                    <div class="code-card">
+
+                        <div class="code-header">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <pre><code>
+const project = {
+    name: "My Project",
+    tech: ["HTML", "CSS", "JS"],
+    status: "deployed"
+};
+
+deploy(project);
+
+console.log("<i class="fa-regular fa-paper-plane"></i> Live!");
+                        </code></pre>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             STATS
+        ================================= -->
+
+        <section class="stats">
+
+            <div class="container stats-container">
+
+                <div class="stat">
+                    <h2>1K+</h2>
+                    <p>Projects</p>
+                </div>
+
+                <div class="stat">
+                    <h2>500+</h2>
+                    <p>Developers</p>
+                </div>
+
+                <div class="stat">
+                    <h2>50+</h2>
+                    <p>Technologies</p>
+                </div>
+
+                <div class="stat">
+                    <h2>10K+</h2>
+                    <p>Project Views</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             FEATURED PROJECTS
+        ================================= -->
+
+        <section class="featured-projects scale">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <div>
+                        <span class="section-label">
+                            Discover
+                        </span>
+
+                        <h2>
+                            Featured Projects
+                        </h2>
+                    </div>
+
+                    <a href="projects.html" class="view-all">
+                        View All →
+                    </a>
+
+                </div>
+
+
+                <div
+                    id="projectsContainer"
+                    class="projects-grid"
+                >
+
+                    <!-- Projects will be generated by JavaScript -->
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================
+             CTA
+        ================================= -->
+
+        <section class="cta scale">
+
+            <div class="container">
+
+                <div class="cta-content">
+
+                    <span><i class="fa-brands fa-r-project"></i> Have a project?</span>
+
+                    <h2>
+                        Show the world what you built.
+                    </h2>
+
+                    <p>
+                        Share your project with developers
+                        and get feedback from the community.
+                    </p>
+
+                    <a
+                        href="add-project.html"
+                        class="btn primary-btn"
+                    >
+                        Add Your Project
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================================
+         FOOTER
+    ================================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+                    Nexus
+                </a>
+
+                <p>
+                    Build. Deploy. Share.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="projects.html">
+                    Explore
+                </a>
+
+                <a href="developers.html">
+                    Developers
+                </a>
+
+                <a href="add-project.html">
+                    Add Project
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 DevShow. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+
